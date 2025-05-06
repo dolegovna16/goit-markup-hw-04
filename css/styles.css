@@ -123,6 +123,7 @@ ul {
 .nav-link.current{
     position: relative;
     color: #404bbf;
+    display: inline-block; /* додай явно! */
     
 }
 .nav-link.current::after{
