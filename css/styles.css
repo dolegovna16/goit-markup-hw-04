@@ -111,6 +111,7 @@ ul {
     color: #f4f4fd;
 }
 .nav-link{
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -123,8 +124,6 @@ ul {
 .nav-link.current{
     position: relative;
     color: #404bbf;
-    display: inline-block; /* додай явно! */
-    
 }
 .nav-link.current::after{
     content: "";
@@ -153,6 +152,7 @@ ul {
 }
 
 .header-address-list-link{
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
